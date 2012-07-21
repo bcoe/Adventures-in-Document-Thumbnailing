@@ -82,6 +82,8 @@ __Or__
 tomthumb -d in/ -o out/
 ```
 
+Hope people find this useful. If you have any comments, I'm available on the twitters [@benjamincoe](http://twitter.com/#/benjamincoe).
+
 Copyright
 ---------
 
