@@ -4,7 +4,7 @@ Adventures in Document Thumbnailing
 The Problem
 -----------
 
-My company, [http://attachments.me](Attachments.me), makes a visual representation of the attachments inside your inbox.
+My company, [Attachments.me](http://attachments.me), makes a visual representation of the attachments inside your inbox.
 
 Recently I've been rebuilding the part of our system that creates these thumbnails.
 
