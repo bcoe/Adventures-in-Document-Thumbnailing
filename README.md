@@ -32,7 +32,7 @@ Up until quite recently, we were using LibreOffice as part of our document thumb
 * It's not thread safe.
 * It's slow and leaks memory.
 
-The main problem we ran into with LibreOffice was its inability to handle concurrent access. We built middleware that limited document processing to one document at a time, which helped. But, this also created a huge bottleneck in our system.
+The main problem we ran into with LibreOffice was its inability to handle concurrent access. We built middleware that limited document processing to one document at a time, which fixed this. This patch also created a huge bottleneck in our system.
 
 80/20 Rule to the Rescue
 ------------------------
