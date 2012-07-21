@@ -17,7 +17,7 @@ Recently I've been rebuilding the part of our system that creates these thumbnai
 
 Even though, for all intents and purposes, [we live in the future](http://www.baconnaise.com/), solving these problems was a bit of a hassle.
 
-OpenOffice (LibreOffice) / PythonUNO
+LibreOffice / PythonUNO
 ------------------------------------
 
 Up until quite recently, we were using OpenOffice as part of our document thumbnailing process. OpenOffice is used to convert a document format to a PDF, at which point it can be easily converted into an image.
