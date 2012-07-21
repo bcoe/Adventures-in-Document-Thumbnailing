@@ -12,10 +12,10 @@ Recently I've been rebuilding the part of our system that creates these thumbnai
 
 * I wanted to use open-source libraries to perform the thumbnailing.
 * I wanted to use a Linux server for hosting the service.
-* I wanted to be able to create thumbnails for the majority of documents our system processes.
+* I wanted to be able to create thumbnails for the majority of documents that our system processes.
 * I needed things to work on a large-scale (millions and millions of thumbnails being created).
 
-Even though, for all intents and purposes, we live in the future, solving these problems was a bit of a hassle.
+Even though, for all intents and purposes, (we live in the future)[http://www.baconnaise.com/], solving these problems was a bit of a hassle.
 
 OpenOffice (LibreOffice) / PythonUNO
 ------------------------------------
