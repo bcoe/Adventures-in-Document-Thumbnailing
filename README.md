@@ -53,7 +53,7 @@ The approach we now use for thumbnailing uses three open-source libraries:
 This new approach:
 
 * Supports 80% of the documents we observe.
-* Deals better with multiple-processes.
+* Plays nicely in a multi-process environment.
 * Runs about 30% faster than the original approach.
 
 Tomthumb
