@@ -59,7 +59,7 @@ This new approach:
 Tomthumb
 --------
 
-I've open-sourced a library called tomthumb __(see the /tomthumb folder in this repo)__. This demonstrates the thumbnailing approach discussed above.
+I've open-sourced a library called tomthumb __(see the /tomthumb folder in this repo)__, that demonstrates the thumbnailing approach discussed above.
 
 Usage
 =====
