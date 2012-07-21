@@ -4,14 +4,14 @@ Adventures-in-Document-Thumbnailing
 The Problem
 -----------
 
-My company, Attachments.me, makes a visual representation of the attachments inside your inbox.
+My company, [http://attachments.me](Attachments.me), makes a visual representation of the attachments inside your inbox.
 
 Recently I've been rebuilding the part of our system that creates these thumbnails.
 
 * I wanted to use open-source libraries to perform the thumbnailing.
 * I wanted to use a Linux server for hosting the service.
-* I wanted to be able to create thumbnails for the most popular document formats (we'll revisit this).
-* I needed things to work in high-traffic production system.
+* I wanted to be able to create thumbnails for the majority of documents our system processes.
+* I needed things to work on a large-scale (millions and millions of thumbnails being created).
 
 Even though, for all intents and purposes, we live in the future, solving these problems was a bit of a hassle.
 
