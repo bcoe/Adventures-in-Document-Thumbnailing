@@ -20,26 +20,26 @@ Even though, for all intents and purposes, [we live in the future](http://www.ba
 LibreOffice / PythonUNO
 ------------------------------------
 
-Up until quite recently, we were using OpenOffice as part of our document thumbnailing process. OpenOffice is used to convert a document format to a PDF, at which point it can be easily converted into an image.
+Up until quite recently, we were using LibreOffice as part of our document thumbnailing process. It was used to convert various document formats to PDFs, at which point the could easily be converted into images.
 
 **Pros**
 
 * Supported most major document formats.
-* PythonUNO provides a handy API interface to OpenOffice.
+* PythonUNO provides a handy API interface to LibreOffice.
 
 **Why We Abandoned It**
 
 * It's not thread safe.
 * It's slow and leaks memory.
 
-The main problem we ran into with OpenOffice was its inability to handle concurrent access. We built middleware that limited document processing to one document at a time, which helped. But, this also created a huge bottleneck in our system.
+The main problem we ran into with LibreOffice was its inability to handle concurrent access. We built middleware that limited document processing to one document at a time, which helped. But, this also created a huge bottleneck in our system.
 
 80/20 Rule to the Rescue
 ------------------------
 
 Taking a look at the millions of attachments that we had indexed, I noticed something: 80% of documents were either .doc, .docx, or .pdf.
 
-This made me rethink the necessity of using OpenOffice for thumbnail creation.
+This made me rethink the necessity of using LibreOffice for thumbnail creation.
 
 PIL / ImageMagick / AbiWord
 --------------------------
