@@ -20,7 +20,7 @@ Even though, for all intents and purposes, [we live in the future](http://www.ba
 LibreOffice / PythonUNO
 ------------------------------------
 
-Up until quite recently, we were using LibreOffice as part of our document thumbnailing process. It was used to convert various document formats to PDFs, at which point the could easily be converted into images.
+Up until quite recently, we were using LibreOffice as part of our document thumbnailing process. It was used to convert various document formats into PDFs, at which point the could easily be converted into images.
 
 **Pros**
 
