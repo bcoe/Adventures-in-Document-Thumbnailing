@@ -1,6 +1,8 @@
 Adventures in Document Thumbnailing
 ===================================
 
+[@benjamincoe](http://twitter.com/#/benjamincoe)
+
 The Problem
 -----------
 
