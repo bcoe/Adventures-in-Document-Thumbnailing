@@ -1,4 +1,4 @@
-Adventures-in-Document-Thumbnailing
+Adventures in Document Thumbnailing
 ===================================
 
 The Problem
