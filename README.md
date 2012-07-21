@@ -20,7 +20,7 @@ Even though, for all intents and purposes, [we live in the future](http://www.ba
 OpenOffice (LibreOffice) / PythonUNO
 ------------------------------------
 
-Up until quite recently we were using OpenOffice as part of our document thumbnailing process. OpenOffice is used to convert a document format to a PDF, at which point it can be easily converted into an image.
+Up until quite recently, we were using OpenOffice as part of our document thumbnailing process. OpenOffice is used to convert a document format to a PDF, at which point it can be easily converted into an image.
 
 **Pros**
 
@@ -32,7 +32,7 @@ Up until quite recently we were using OpenOffice as part of our document thumbna
 * It's not thread safe.
 * It's slow and leaks memory.
 
-One of the bigger problems we ran into with OpenOffice was its inability to handle concurrent access. We built middleware that limited document processing to one document at a time, which helped. But, OO would frequently hang during conversions, and this made for a huge bottleneck in the system.
+The main problem we ran into with OpenOffice was its inability to handle concurrent access. We built middleware that limited document processing to one document at a time, which helped. But, OO would frequently hang during conversions, and this made for a huge bottleneck in the system.
 
 80/20 Rule to the Rescue
 ------------------------
