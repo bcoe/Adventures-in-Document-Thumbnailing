@@ -32,7 +32,7 @@ Up until quite recently, we were using OpenOffice as part of our document thumbn
 * It's not thread safe.
 * It's slow and leaks memory.
 
-The main problem we ran into with OpenOffice was its inability to handle concurrent access. We built middleware that limited document processing to one document at a time, which helped. But, OO would frequently hang during conversions, and this made for a huge bottleneck in the system.
+The main problem we ran into with OpenOffice was its inability to handle concurrent access. We built middleware that limited document processing to one document at a time, which helped. But, this also created a huge bottleneck in our system.
 
 80/20 Rule to the Rescue
 ------------------------
@@ -47,7 +47,7 @@ PIL / ImageMagick / AbiWord
 The approach we now use for thumbnailing uses three open-source libraries:
 
 * _AbiWord_ converts various document formats into PDFs.
-* _ImageMagick_ converts the first page of the PDF into a JPG image.
+* _ImageMagick_ converts the first page of the PDF outputted by AbiWord into a JPG image.
 * _python-imaging-libray_ is used to resize the images outputted by ImageMagick (this could be done entirely using ImageMagick, but I like the PIL interface).
 
 This new approach:
