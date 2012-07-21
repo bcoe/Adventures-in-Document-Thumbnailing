@@ -73,13 +73,13 @@ Usage
 =====
 
 ```bash
-tomthumb -o outputdir/ --width=70 --height=120
+tomthumb -i foo.doc -o out/ --width=70 --height=120
 ```
 
 __Or__
 
 ```bash
-tomthumb -d inputdir/ -o outputdir/
+tomthumb -d in/ -o out/
 ```
 
 Copyright
