@@ -1,6 +1,6 @@
 import os
 import optparse
-from .thumbnail import Thumbnail
+from thumbnail import Thumbnail
 
 def main():
     parser = optparse.OptionParser()
@@ -60,8 +60,8 @@ def main():
                 width=int( options.width ),
                 height=int( options.height )
             )
-        except Exception as e:
-            print('%s. Make sure all the dependencies for tomthumb are installed:\n\n\tapt-get install python-imaging abiword imagemagick timelimit' % (e))
+        except Exception, e:
+            print '%s. Make sure all the dependencies for tomthumb are installed:\n\n\tapt-get install python-imaging abiword imagemagick timelimit' % (e)
     elif options.in_dir:
         for f in os.listdir( options.in_dir ):
             in_file = '%s/%s' % (options.in_dir, f)
@@ -73,10 +73,10 @@ def main():
                         width=int( options.width ),
                         height=int( options.height )
                     )
-                except Exception as e:
-                    print(e)
+                except Exception, e:
+                    print e
     else:
-        print("type 'tomthumb -h' for usage information.")
+        print "type 'tomthumb -h' for usage information."
                 
 if __name__ == "__main__":
     main()
