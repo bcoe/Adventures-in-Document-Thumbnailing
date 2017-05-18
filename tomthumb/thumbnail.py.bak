@@ -17,7 +17,7 @@ class Thumbnail(object):
         if not self.in_file_ext in Thumbnail.SUPPORTED_EXTENSIONS:
             raise Exception('%s was not a supported extension' % self.in_file_ext)
         
-        print('Creating thumbnail %s.jpg in %s' % (self.in_file_prefix, out_dir))
+        print 'Creating thumbnail %s.jpg in %s' % (self.in_file_prefix, out_dir)
         
         self.width = width
         self.height = height
